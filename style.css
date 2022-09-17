@@ -1,3 +1,52 @@
-h1 {
-    color: red;
+
+body{
+    background-color: #222629;
+    color: #7a7d80;
+    font-family: Calibri, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 50px;
+}
+
+a{
+    color: #b3cc59;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#faf60f
+}
+
+a:visited{
+    color: #454749;
+}
+
+h1, h2{
+    color: #86C232;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 80px;
+}
+    
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    color: #61892F;
+    font-size: 30px;
+}
+
+.zkusenosti, .vzdelani{
+    background-color: #323436;
+}
+
+img{
+    width: 30%;
+    height: 30%;
+    float: left;
+    section overflow: auto;
+    border-radius: 50%;
 }

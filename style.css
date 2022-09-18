@@ -1,52 +1,109 @@
 
 body{
     background-color: #222629;
-    color: #7a7d80;
+    color: #a2a7ac;
     font-family: Calibri, sans-serif;
     font-size: 20px;
     line-height: 1.5;
-    margin: 50px;
+    margin: 7%;
+}
+
+header{
+    padding:0px 100px;
+}
+header h3{
+    color: #a2a7ac;
+    font-size:45px;
+    text-align:right;
+    margin-top: 0;
+}
+
+.menu{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #17191b;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu a{
+    color: #69992f;
+    text-decoration: none;
+    padding: 20px 40px;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.menu a:hover,
+.menu a:focus
+.menu a:active {
+    background-color: #323436;
 }
 
 a{
-    color: #b3cc59;
+    color: #69992f;
     text-decoration: none;
 }
 
-a:hover{
-    color:#faf60f
-}
-
-a:visited{
-    color: #454749;
-}
 
 h1, h2{
     color: #86C232;
     font-weight: bold;
+    margin-bottom: 0;
 }
 
 h1{
-    font-size: 80px;
+    font-size: 130px;
+    text-align: right;
 }
     
 h2 {
     font-size: 60px;
+    margin-left: -10%;
 }
 
 h3 {
     color: #61892F;
     font-size: 30px;
+    margin-left: -10%;
 }
 
-.zkusenosti, .vzdelani{
+.zkusenosti, .vzdelani, .jazyky{
     background-color: #323436;
 }
 
+section{
+    padding: 20px 200px;
+}
+
 img{
-    width: 30%;
-    height: 30%;
+    width: 20%;
+    height: 20%;
     float: left;
-    section overflow: auto;
+    overflow: auto;
     border-radius: 50%;
+    border: #86C232 solid 5px;
+    margin-top: 10px;
+}
+
+table{
+    border-spacing: 0px;
+}
+
+th, td{
+    border-bottom:#7a7d80 solid 2px;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.ajnj{
+    text-align: left;
+}
+
+footer{
+    padding:40px 0px;
+    text-align: center;
 }
